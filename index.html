@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Nathan Quinn Simple Calculator</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="script.js">
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Fjalla+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<a href="instructions.html" id="instructions">Click here for instructions!!</a>
+	<br>
+   <p id="made">Made by Nathan Quinn</p>
+   <strong id="Header1"> Simple Calculator</strong>
+   <br>
+   <br>
+ <label class="label"> Input First Number: <input type="number" id="FirstNum" value=""></label>
+ <br>
+ <label class="label"> Input Second Number: <input type="number" id="SecondNum" value=""></label>
+ <br>
+ <br>
+ <button class="addButton" id="TopRow" onclick="addNum()">Add</button>
+ <button class="addButton" id="TopRow" onclick="subNum()">Subtract</button>
+ <button class="addButton" id="TopRow" onclick="multNum()">Multiply</button>
+ <button class="addButton" id="TopRow" onclick="divNum()">Divide</button>
+ <br>
+ <br>
+ <button class="addButton" id="BotRow" onclick="expNum()">Exponent</button>
+ <button class="addButton" id="BotRow" onclick="modNum()">Modulus</button>
+ <button class="addButton" id="BotRow" onclick="incNum()">Increment</button>
+ <button class="addButton" id="BotRow" onclick="decNum()">Decrement</button>
+ <br>
+ <br>
+ <br>
+<p id="end">Result:</p>
+<br>
+<strong id="result"></strong>
+ </body>
+</html>
